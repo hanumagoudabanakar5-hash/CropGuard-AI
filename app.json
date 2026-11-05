@@ -1,0 +1,47 @@
+
+{
+  "expo": {
+    "name": "LEAF LOGIC",
+    "slug": "chip-to-crop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#F7FFF9"
+      },
+      "package": "com.rakeshraki1212.chiptocrop"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "backgroundColor": "#F7FFF9",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e2b1461-d718-499c-8060-54bc59553fc7"
+      }
+    }
+  }
+}
