@@ -1,2 +1,10 @@
 .expo/
 node_modules/
+.claude/
+backend/venv/
+ai_model/venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+backend/*.db
